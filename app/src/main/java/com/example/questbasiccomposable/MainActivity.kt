@@ -48,4 +48,11 @@ fun BasicCOmpose(modifier: Modifier = Modifier){
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Top,
         modifier = modifier.fillMaxSize()
-    ){
+    ){  Text(
+        text = "Login",
+        style = TextStyle(
+            fontSize = 30.sp,
+            fontWeight = FontWeight.Bold,
+            color = Color.Black
+        ),
+    )
