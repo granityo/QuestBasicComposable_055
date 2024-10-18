@@ -59,5 +59,12 @@ fun BasicCOmpose(modifier: Modifier = Modifier){
         Text(
             text = "Ini adalah Halaman Login",
             modifier = modifier.padding(bottom = 1.dp),
-            style = TextStyle
+            style = TextStyle(
+                fontSize = 20.sp,
+                fontStyle = FontStyle.Italic,
+                color = Color.DarkGray,
+                fontWeight = FontWeight.Normal
+            ),
+        )
+
 
