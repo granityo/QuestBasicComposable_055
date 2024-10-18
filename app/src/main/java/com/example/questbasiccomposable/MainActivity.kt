@@ -75,5 +75,8 @@ class MainActivity : ComponentActivity() {
                     fontWeight = FontWeight.Medium
                 ),
             )
+            Text(
+                text = "Andi Granityo Jhon Jassin",
+                style = TextStyle
 
 
