@@ -38,4 +38,14 @@ class MainActivity : ComponentActivity() {
             }
         }
     }
+
 }
+
+@Preview
+@Composable
+fun BasicCOmpose(modifier: Modifier = Modifier){
+    Column (
+        horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.Top,
+        modifier = modifier.fillMaxSize()
+    ){
