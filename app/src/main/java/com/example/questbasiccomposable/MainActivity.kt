@@ -91,6 +91,17 @@ class MainActivity : ComponentActivity() {
                 )
 
             )
+            Image(
+                painter = painterResource(id = R.drawable.tyo),contentDescription = null
+            )
+
+
+
+        }
+    }
+
+}
+
 
 
 
