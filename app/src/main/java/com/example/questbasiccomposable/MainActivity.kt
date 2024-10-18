@@ -68,4 +68,12 @@ class MainActivity : ComponentActivity() {
                 painter = painterResource(id = R.drawable.umy),contentDescription = null,
                 //modifier = modifier.padding(bottom = 10.dp),
             )
+            Text(
+                text = "Nama",
+                style = TextStyle(
+                    fontSize = 20.sp,
+                    fontWeight = FontWeight.Medium
+                ),
+            )
+
 
