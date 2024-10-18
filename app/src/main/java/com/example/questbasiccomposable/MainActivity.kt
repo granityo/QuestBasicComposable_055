@@ -77,6 +77,12 @@ class MainActivity : ComponentActivity() {
             )
             Text(
                 text = "Andi Granityo Jhon Jassin",
-                style = TextStyle
+                style = TextStyle(
+                    fontSize = 20.sp,
+                    fontWeight = FontWeight.Medium,
+                    color = Color.Black
+                )
+            )
+
 
 
