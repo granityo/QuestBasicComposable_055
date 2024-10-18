@@ -83,6 +83,15 @@ class MainActivity : ComponentActivity() {
                     color = Color.Black
                 )
             )
+            Text(
+                text = "20220140086",
+                style = TextStyle(
+                    fontSize = 50.sp,
+                    fontWeight = FontWeight.Bold
+                )
+
+            )
+
 
 
 
